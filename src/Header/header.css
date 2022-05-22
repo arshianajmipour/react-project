@@ -23,3 +23,8 @@ div .title-of-header{
     justify-content: space-between;
     background-color: #282c34;
 }
+@media screen and ( max-height: 500px) {
+.title-of-header{
+    display :none !important;
+}
+}

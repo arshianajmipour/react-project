@@ -14,9 +14,9 @@ function App() {
      <BrowserRouter >
          <Routes >
              <Route exact path="/react-project/" element={<Home/>}/>
-             <Route exact path="react-project//Contact" element={<Contact/>}/>
-             <Route  path="react-project//About" element={<About/>}/>
-             <Route exact path="react-project//News" element={<News/>}/>
+             <Route exact path="react-project/Contact" element={<Contact/>}/>
+             <Route  path="react-project/About" element={<About/>}/>
+             <Route exact path="react-project/News" element={<News/>}/>
          </Routes>
      </BrowserRouter>
      <Footer/>
