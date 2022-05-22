@@ -11,8 +11,8 @@ function App() {
   return (
 <div className="page">
      <Header/>
-     <BrowserRouter>
-         <Routes>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
+         <Routes >
              <Route exact path="/" element={<Home/>}/>
              <Route exact path="/Contact" element={<Contact/>}/>
              <Route exact path="/About" element={<About/>}/>
