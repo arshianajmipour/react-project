@@ -11,12 +11,12 @@ function App() {
   return (
 <div className="page">
      <Header/>
-     <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <BrowserRouter >
          <Routes >
-             <Route exact path="/" element={<Home/>}/>
-             <Route exact path="/Contact" element={<Contact/>}/>
-             <Route  path="/About" element={<About/>}/>
-             <Route exact path="/News" element={<News/>}/>
+             <Route exact path="/react-project/" element={<Home/>}/>
+             <Route exact path="react-project//Contact" element={<Contact/>}/>
+             <Route  path="react-project//About" element={<About/>}/>
+             <Route exact path="react-project//News" element={<News/>}/>
          </Routes>
      </BrowserRouter>
      <Footer/>
